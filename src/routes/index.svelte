@@ -63,7 +63,7 @@
 </style>
 
 <svelte:head>
-	<title>MS21 | Medias</title>
+	<title>Political Blog | Medias</title>
 </svelte:head>
 
 <MultiplesFiltersList
@@ -78,7 +78,7 @@
 					]).size !== filters.length + categories.length) : articles as { id, title, subTitle, cover } (id)}
 		<li
 			on:click={() => handleArticleClick(id)}
-			style="background-image: url('https://storage.googleapis.com/ms21-298515.appspot.com/{cover}.jpeg'); background-image: var(--gradient-bw-opacity-low), url('https://storage.googleapis.com/ms21-298515.appspot.com/{cover}.jpeg')">
+			style="background-image: url('url'); background-image: var(--gradient-bw-opacity-low), url('url')">
 			<ArticleCardLink {title} {subTitle} {cover} to={`actions/${id}`} />
 		</li>
 	{/each}

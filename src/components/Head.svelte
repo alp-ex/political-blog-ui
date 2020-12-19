@@ -39,7 +39,7 @@
 </style>
 
 <header>
-	<h1>ms21</h1>
+	<h1>political blog</h1>
 
 	<button>adhérer</button>
 </header>

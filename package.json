@@ -1,6 +1,6 @@
 {
-  "name": "ms21-ui",
-  "description": "ms21 political blog",
+  "name": "political-blog-ui",
+  "description": "political blog",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",

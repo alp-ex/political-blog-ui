@@ -1,5 +1,5 @@
 // const apiURL = process.env.SAPPER_APP_API_URL;
-const apiURL = "https://ms21-298515.ue.r.appspot.com";
+const apiURL = "";
 
 export async function getData(endpoint: string) {
   const config = {
