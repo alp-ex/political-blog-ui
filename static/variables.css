@@ -1,0 +1,19 @@
+:root {
+  /* PRIMARY */
+  --primary-main: #f51941;
+  --primary-light: #ffedf0;
+
+  /* COMMONS */
+  --common-white: #fff;
+  --common-dark: #150004;
+
+  --grey-light: #f3f3f4;
+  --grey-medium: #6e6d7a;
+
+  /* SHADOWS */
+  --box-shadow-focus: 0 0 0 4px rgba(234, 76, 137, 0.1);
+  --box-shadow-item: -2px 3px 4px 1px rgb(152 217 255 / 0.05);
+
+  /* GRADIENTS */
+  --gradient-bw-opacity-low: linear-gradient(#00000017, #0000006b);
+}
